@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 384M
+  instances: 1
+  domain: mybluemix.net
+  name: jack-wang
+  host: jack-wang
+  disk_quota: 1024M
